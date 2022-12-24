@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "hello,-world!",
+    "slug": "snack-0377e5cd-bbaf-4425-8f4f-e06235ccd621",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": "@config-plugins/react-native-ble-plx",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.testkitchens.snack-0377e5cd-bbaf-4425-8f4f-e06235ccd621"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "If you're just interested in playing around with React Native, you can use Snack. Try starting from this Hello World example code. You don't need to install anything; you can just modify the code and see if it works."
+  }
+}
