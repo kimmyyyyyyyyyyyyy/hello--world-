@@ -9,7 +9,7 @@ import {
 } from '@config-plugins/react-native-ble-plx';
 const bleManager = new BleManager();
  console.log(bleManager)
- //here
+
 export default class App extends Component {
 
 
